@@ -1,10 +1,10 @@
 
-module vending_machine_22;
+module vending_machine_22(
   input clk;
   input rst;
   input [1:0]in, //01 = 5rs, 10 = 10rs
   output reg out;
-  output reg[1:0] change
+  output reg[1:0] change);
   
   
   parameter s0 = 2'b00;
